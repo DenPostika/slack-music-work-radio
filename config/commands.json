@@ -1,0 +1,19 @@
+{
+	"help": {
+		"alias": [],
+		"endpoint": "#",
+		"help": "help (и больше ничего не надо братан)",
+		"description": "Ну это команда для тех кто хочет узнать все что я могу!"
+	},
+
+	"add": {
+		"alias": ["Add", "Поставь", "поставь"],
+		"endpoint": "",
+		"help": "add [song name]",
+		"description": "Поставить музяку"
+	},
+
+	"error": {
+		"exclude": true
+	}
+}
