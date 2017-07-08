@@ -18,9 +18,6 @@
     "type": "git",
     "url": "git@github.paypal.com:gnramesh/slack-sample-cli.git"
   },
-  "engines": {
-    "node": "0.10.x"
-  },
   "keywords": [
     "slack",
     "terminal"
