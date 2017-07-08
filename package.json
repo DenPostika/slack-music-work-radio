@@ -19,7 +19,7 @@
     "url": "git@github.paypal.com:gnramesh/slack-sample-cli.git"
   },
   "engines": {
-    "node": "0.12.x"
+    "node": "4.2.6"
   },
   "keywords": [
     "slack",
