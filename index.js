@@ -7,7 +7,7 @@ var server = app.listen(8080);
 var io = require('socket.io').listen(server);
 var gm = require('locutus/php/datetime/date');
 
-slackTerminal.init('xoxb-210718922887-VYKp2JOgWzQDRGNF9kBdtoz9', {
+slackTerminal.init('xoxb-210718922887-udsntUzElcJJcBh4R4Ma2hsR', {
     // slack rtm client options here
     // more info at: https://github.com/slackhq/node-slack-client/blob/master/lib/clients/rtm/client.js
 }, {
