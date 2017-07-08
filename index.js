@@ -3,7 +3,7 @@ var slackTerminal = require('slack-terminalize');
 var express = require('express');
 var app = express();
 
-var server = app.listen(8080);
+var server = app.listen((process.env.PORT || 5000));
 var io = require('socket.io').listen(server);
 var gm = require('locutus/php/datetime/date');
 
