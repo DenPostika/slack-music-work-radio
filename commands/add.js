@@ -12,12 +12,12 @@ module.exports = function (param) {
         if (result.data[0]) {
             if (app.io().engine.clientsCount) {
                 app.io().sockets.emit('add', result.data[0].id);
-                util.postMessage(channel, "Заявку принял на " + result.data[0].artist.name + " - " + result.data[0].title);
+                util.postMessage(channel, "Заявку принял на *<"+result.data[0].link+"|" + result.data[0].artist.name + " - " + result.data[0].title + ">* :musical_note:", false);
             } else {
-                util.postMessage(channel, "Прости, заявку то я принял, но играть негде :с");
+                util.postMessage(channel, "Заявку то я принял, но играть негде :white_frowning_face:", false);
             }
         } else {
-            util.postMessage(channel, "Мне не удалось ничего найти чувак :с");
+            util.postMessage(channel, "Мне не удалось ничего найти чувак :white_frowning_face:", false);
         }
     });
 };
